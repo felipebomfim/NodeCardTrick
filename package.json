@@ -1,0 +1,26 @@
+{
+  "name": "nodecardtrick",
+  "version": "1.0.0",
+  "description": "This is a Node.js and MongoDB project based on https://www.youtube.com/watch?v=h21pa3yeW08 which can be used on a magic card trick.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipebomfim/NodeCardTrick.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipebomfim/NodeCardTrick/issues"
+  },
+  "homepage": "https://github.com/felipebomfim/NodeCardTrick#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.0"
+  }
+}
